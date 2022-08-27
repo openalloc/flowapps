@@ -6,9 +6,11 @@ This project consists of two applications which are part of the
 [OpenAlloc](https://github.com/openalloc) family of open source Swift
 software tools.
 
-- _FlowAllocator_ - a sophisticated portfolio rebalancing tool
+- [FlowAllocator](https://openalloc.github.io/FlowAllocator/index.html)
+  - a sophisticated portfolio rebalancing tool
 
-- _FlowWorth_ - a tool for tracking value and performance over time
+- [FlowWorth](https://openalloc.github.io/FlowWorth/index.html)
+  - a tool for tracking value and performance over time
 
 They are formerly proprietary applications now entirely open-sourced in
 August 2022. 
@@ -33,11 +35,6 @@ $ open flowapps.xcworkspace
 
 The dependent packages presently included in the workspace (e.g.,
 ‘FlowViz’) could be spun off into external package dependencies.
-
-## Code Formatting
-
-Be careful running a code formatting utility, as it may alter triple-quote
-string indentation that could break behavior.
 
 ## Unit Tests
 
