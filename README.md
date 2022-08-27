@@ -6,11 +6,9 @@ This project consists of two applications which are part of the
 [OpenAlloc](https://github.com/openalloc) family of open source Swift
 software tools.
 
-- [FlowAllocator](https://openalloc.github.io/FlowAllocator/index.html)
-  - a sophisticated portfolio rebalancing tool
+- [FlowAllocator](https://openalloc.github.io/FlowAllocator/index.html) - a sophisticated portfolio rebalancing tool
 
-- [FlowWorth](https://openalloc.github.io/FlowWorth/index.html)
-  - a tool for tracking value and performance over time
+- [FlowWorth](https://openalloc.github.io/FlowWorth/index.html) - a tool for tracking value and performance over time
 
 They are formerly proprietary applications now entirely open-sourced in
 August 2022. 
