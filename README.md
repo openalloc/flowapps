@@ -2,11 +2,11 @@
 
 _Power Tools for the Do-It-Yourself Investor_
 
-The _flowapps_ Github repository includes two Xcode application projects in a shared Xcode workspace:
+The workspace in this Github repository has been broken up into separate projects. The two top-level projects are the ‘Flow’ apps:
 
-- [FlowAllocator](https://openalloc.github.io/FlowAllocator/index.html) - a sophisticated portfolio rebalancing tool
+- [FlowAllocator](https://github.com/openalloc/FlowAllocator) - a sophisticated portfolio rebalancing tool
 
-- [FlowWorth](https://openalloc.github.io/FlowWorth/index.html) - a tool for tracking the value and performance of a portfolio over time
+- [FlowWorth](https://github.com/openalloc/FlowWorth) - a tool for tracking the value and performance of a portfolio over time
 
 These applications are part of the [OpenAlloc](https://github.com/openalloc) family of open source Swift software tools.
 
@@ -17,24 +17,6 @@ They are written in _Swift_ language and the _SwiftUI_ framework using Xcode 13.
 The current target is macOS 12.0 (Monterey) and newer, for Intel and Apple Silicon. This requirement will move forward in the future.
 
 There’s strong potential for supporting iPadOS/iOS, but would require further development and testing by interested developers.
-
-## Project Organization
-
-Presently organized as an Xcode workspace. To load into Xcode from the Git project root...
-
-```bash 
-$ open flowapps.xcworkspace
-```
-
-The dependent packages presently included in the workspace (e.g., ‘FlowViz’) could be spun off into external package dependencies.
-
-## Unit Tests
-
-Most critical functionality in the libraries are backed by unit testing. There is presently no UI testing code, but that could be added if needed.
-
-Note that any given unit test may have defects or bad assumptions, and can be worthy of review and re-write.
-
-In the libraries, bug fixes and new contributions should be backed by unit tests.
 
 ## License
 
