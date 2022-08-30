@@ -4,7 +4,7 @@ _Power Tools for the Do-It-Yourself Investor_
 
 The workspace in this Github repository has been broken up into separate projects. The two top-level projects are the ‘Flow’ apps:
 
-- [FlowAllocator](https://github.com/openalloc/FlowAllocatorApp) - a sophisticated portfolio rebalancing tool
+- [FlowAllocator](https://github.com/openalloc/FlowAllocatorApp) - a portfolio rebalancing tool
 
 - [FlowWorth](https://github.com/openalloc/FlowWorthApp) - a tool for tracking the value and performance of a portfolio over time
 
